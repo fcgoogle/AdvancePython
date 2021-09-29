@@ -39,7 +39,7 @@ class MyVector(object):
         self.y = y
 
     def __add__(self, other):
-        # 矢量的x，y轴各自相加后，在传如类模版中，新实例话一个矢量对象
+        # 矢量的x，y轴各自相加后，在传入类模版中，新实例化一个矢量对象
         re_vector = MyVector(self.x + other.x, self.y + other.y)
         return re_vector
 
