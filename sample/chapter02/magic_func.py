@@ -13,6 +13,9 @@ class Company(object):
     def __repr__(self):
         return ",".join(self.employee)
 
+    def __len__(self):
+        return len(self.employee)
+
 
 company = Company(["tom", "bob", "jane"])
 
