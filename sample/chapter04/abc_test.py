@@ -1,7 +1,7 @@
 """
 抽象基类
 子类必须要继承并重写基类的特定的类方法，否则子类在初始化实例化的时候就会抛出异常（接口的强制规定）
-可以模拟实现，通过在父类的类方法里抛出NotImplementedError,
+可以模拟实现，通过在父类的类方法里抛出NotImplementedError
 """
 from collections.abc import Sized
 import abc

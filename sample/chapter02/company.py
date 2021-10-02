@@ -33,7 +33,7 @@ emploee = company.employee
 # for em in company:
 #     print(em)
 
-print("------------------")
+
 # for em1 in company1:
 #     print(em1)
 
